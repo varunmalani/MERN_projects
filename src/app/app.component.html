@@ -1,0 +1,91 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    .toolbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        background-color: #3F51B5;
+        color: white;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .user-profile {
+        right: 5%;
+        position: absolute;
+    }
+    
+    .nav-title {
+        margin-left: 10px;
+    }
+    
+    .nav-menu {
+        height: 100vh;
+        width: 15%;
+        background-color: white;
+        left: 0;
+        top: 8%;
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .nav-links a:hover {
+        background-color: #F3F3F3;
+    }
+    
+    .nav-links a {
+        padding-bottom: 10px;
+        margin-left: 10px;
+        display: flex;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .nav-links span {
+        position: absolute;
+        right: 5px;
+    }
+    
+    .srmlogo {
+        position: absolute;
+        left: 17%;
+        top: 10%;
+        width: 80%;
+    }
+</style>
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+
+    <span class="nav-title"> Academia - Academic Web Services </span>
+    <div class="spacer"></div>
+    <span class="user-profile">vm9879</span>
+    <!-- <fa-icon [icon]="faCoffee"></fa-icon> -->
+
+
+
+</div>
+<div class="content">
+    <div class="nav-menu">
+        <div class="nav-links">
+            <a>CIRCULAR <span>></span></a><br>
+            <a>WELCOME <span>></span></a><br>
+            <a>Student Profile <span>></span></a><br>
+            <a>Academic Reports <span>></span></a><br>
+            <a>Student <span>></span></a><br>
+            <a>Unified Time Table <span>></span></a><br>
+            <a>Course Feedback <span>></span></a><br>
+            <a>New Regulation <span>></span></a><br>
+            <a>My Time Table & Attendance <span>></span></a><br>
+            <a>Student Services <span>></span></a>
+        </div>
+    </div>
+    <div class="display">
+        <img class="srmlogo" [src]="ImagePath">
+    </div>
+</div>
