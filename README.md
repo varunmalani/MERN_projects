@@ -1,6 +1,4 @@
-# MERN: Task 1 - This is my first Angular App
-
-## A look-a-like of SRM's Academia Student Portal
+# MERN: Assignment 1 - Clone of SRM Academia Student Portal
 
 The Repo holds the project files of Angular and its assets!
 Implementation:
